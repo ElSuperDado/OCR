@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css" >
+        <title>OCR AI</title>
+    </head>
+
+    <body>
+        <h1>Welcome to OCR AI !</h1>
+
+        <div>
+            <button id="btnTrainAI" onclick="setTrainMode()">Train AI</button>
+            <button id="btnAskAI" onclick="setAskMode()">Ask AI</button>
+        </div>
+
+        <div>
+            <p>Try to draw a number from 0 to 9 with your mouse: </p>
+            <canvas id="canvas" height="420" width="420"></canvas>
+            <p style="margin:auto;">Authors: Maxence Montavon & Damian Boquete</p>
+        </div>
+
+        <div id="formBtns">
+            <button onclick="checkInputs()">Submit</button>
+            <button onclick="clearCanvas()">Clear canvas</button>
+        </div>
+
+        <div id="jsDiv"></div>
+        <div id="errDiv"></div>
+
+    </body>
+
+    <script src="./app.js"></script>
+</html>
