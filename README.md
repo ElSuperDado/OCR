@@ -1,5 +1,7 @@
 # Optical Character Recognition (OCR) app
+
 **authors**: Maxence Montavon & Damian Boquete Costa
+
 **Last modification**: 20.06.2022
 
 ---
